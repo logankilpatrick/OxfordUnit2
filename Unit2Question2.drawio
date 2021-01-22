@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-21T15:42:49.684Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="867DK8uvf6dT9OCOhCdQ" version="14.2.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-22T16:10:13.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="mRHJv5JA_iNYaBUWQPFv" version="14.2.2" type="github" pages="5">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Level 0">
     <mxGraphModel dx="1236" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -643,7 +643,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Iw8t_XU4xD06pum-nbCc" name="EntityRelationship">
-    <mxGraphModel dx="1236" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="JiUJmgH1YbLPJNGB62JI-0" />
         <mxCell id="JiUJmgH1YbLPJNGB62JI-1" parent="JiUJmgH1YbLPJNGB62JI-0" />
@@ -729,6 +729,53 @@
         <mxCell id="JiUJmgH1YbLPJNGB62JI-19" value="Assigns Tutor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JiUJmgH1YbLPJNGB62JI-18">
           <mxGeometry x="-0.2841" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fxc9jWSqIONcHSzuL9eg" name="DialogStructureDiagram">
+    <mxGraphModel dx="946" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="5SU3raXzTJaPPI-niL-d-0" />
+        <mxCell id="5SU3raXzTJaPPI-niL-d-1" parent="5SU3raXzTJaPPI-niL-d-0" />
+        <mxCell id="5SU3raXzTJaPPI-niL-d-2" value="Enroll a Student" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5SU3raXzTJaPPI-niL-d-1">
+          <mxGeometry x="350" y="70" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5SU3raXzTJaPPI-niL-d-3" value="Enter Course Details" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5SU3raXzTJaPPI-niL-d-1">
+          <mxGeometry x="120" y="200" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5SU3raXzTJaPPI-niL-d-4" value="Validate Details" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5SU3raXzTJaPPI-niL-d-1">
+          <mxGeometry x="370" y="200" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5SU3raXzTJaPPI-niL-d-5" value="Enroll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5SU3raXzTJaPPI-niL-d-1">
+          <mxGeometry x="600" y="200" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5SU3raXzTJaPPI-niL-d-9" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=0.468;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5SU3raXzTJaPPI-niL-d-1" source="5SU3raXzTJaPPI-niL-d-2" target="5SU3raXzTJaPPI-niL-d-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="sourcePoint" />
+            <mxPoint x="450" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5SU3raXzTJaPPI-niL-d-10" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=0.468;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5SU3raXzTJaPPI-niL-d-1" source="5SU3raXzTJaPPI-niL-d-2" target="5SU3raXzTJaPPI-niL-d-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="sourcePoint" />
+            <mxPoint x="450" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5SU3raXzTJaPPI-niL-d-11" value="" style="endArrow=classic;html=1;strokeWidth=1;exitX=0.463;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="5SU3raXzTJaPPI-niL-d-1" source="5SU3raXzTJaPPI-niL-d-2" target="5SU3raXzTJaPPI-niL-d-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="sourcePoint" />
+            <mxPoint x="450" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="180" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
