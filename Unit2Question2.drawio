@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T16:21:14.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="PTrT60m_GSSO3VEiX0wf" version="14.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-01-25T16:26:25.840Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="I12vZ6bzyutaJZoXx-oi" version="14.2.2" type="github" pages="6">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Level 0">
     <mxGraphModel dx="1236" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1079,6 +1079,54 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nVv3KNzCGScDIemKfAsc-2" value="Text field to show success or error message" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="nVv3KNzCGScDIemKfAsc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-855PgLdh_0zuQnkkUAq-0" value="College Assignments System" style="swimlane;fontSize=12;align=center;" vertex="1" parent="aWEEO3k6QHIlpos5cw3z-1">
+          <mxGeometry x="1380" y="230" width="695" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="-855PgLdh_0zuQnkkUAq-1" value="Confirm" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="-855PgLdh_0zuQnkkUAq-0">
+          <mxGeometry x="155" y="440" width="470" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-855PgLdh_0zuQnkkUAq-2" value="*Confirm Enrollment in Course _______*" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="-855PgLdh_0zuQnkkUAq-0">
+          <mxGeometry x="155" y="70" width="470" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="-855PgLdh_0zuQnkkUAq-4" value="&lt;table border=&quot;1&quot; width=&quot;100%&quot; cellpadding=&quot;4&quot; style=&quot;width: 100% ; height: 100% ; border-collapse: collapse&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;&lt;b&gt;Menu&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Login&lt;br&gt;Find a course&lt;br&gt;Course policies&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;View Grades&lt;br&gt;Review a course&lt;br&gt;See Course Reviews&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;overflow=fill;fontSize=12;align=center;fontColor=#333333;" vertex="1" parent="-855PgLdh_0zuQnkkUAq-0">
+          <mxGeometry x="5" y="70" width="125" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-855PgLdh_0zuQnkkUAq-5" value="*Hidden Text Field*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="-855PgLdh_0zuQnkkUAq-0">
+          <mxGeometry x="355" y="530" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-855PgLdh_0zuQnkkUAq-8" value="Cancel&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=12;align=center;" vertex="1" parent="-855PgLdh_0zuQnkkUAq-0">
+          <mxGeometry x="325" y="285" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-855PgLdh_0zuQnkkUAq-7" value="Enrollment Confirmation Screen" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;rounded=0;" vertex="1" parent="aWEEO3k6QHIlpos5cw3z-1">
+          <mxGeometry x="1677.5" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-855PgLdh_0zuQnkkUAq-9" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=12;entryX=1.002;entryY=0.642;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="aWEEO3k6QHIlpos5cw3z-1" target="-855PgLdh_0zuQnkkUAq-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2350" y="320" as="sourcePoint" />
+            <mxPoint x="2030" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-855PgLdh_0zuQnkkUAq-10" value="Confirmation Text" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="-855PgLdh_0zuQnkkUAq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-855PgLdh_0zuQnkkUAq-11" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=12;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="aWEEO3k6QHIlpos5cw3z-1" target="-855PgLdh_0zuQnkkUAq-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2254.06" y="448" as="sourcePoint" />
+            <mxPoint x="1910" y="549.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-855PgLdh_0zuQnkkUAq-12" value="Cancel Button" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="-855PgLdh_0zuQnkkUAq-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-855PgLdh_0zuQnkkUAq-13" value="" style="endArrow=classic;html=1;strokeWidth=1;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="aWEEO3k6QHIlpos5cw3z-1" target="-855PgLdh_0zuQnkkUAq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2370" y="590" as="sourcePoint" />
+            <mxPoint x="2025.94" y="691.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-855PgLdh_0zuQnkkUAq-14" value="Confirm Button" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="-855PgLdh_0zuQnkkUAq-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
